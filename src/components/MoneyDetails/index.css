@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.money-details-totalAmount {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ecfccb;
+  border: 2px solid #7e858e;
+  border-radius: 10px;
+}
+
+.money-details-totalIncome {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #cffafe;
+  border: 2px solid #7e858e;
+  border-radius: 10px;
+}
+
+.money-details-totalExpenses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ede9fe;
+  border: 2px solid #7e858e;
+  border-radius: 10px;
+}
+
+.img {
+  width: 100px;
+  padding: 20px;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+  color: #334155;
+  padding-right: 10px;
+}
+
+.amount {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+  color: #334155;
+  padding-right: 10px;
+}
